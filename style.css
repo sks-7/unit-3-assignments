@@ -1,0 +1,36 @@
+#showStudent div{
+    height: auto;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: lightblue;
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    display: inline-block;
+   /* grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr); */
+   }
+   #showData>div{
+       width: 100%;
+       border: 1px solid red;
+       display: flex;
+   }
+   #formDetails{
+       height: 400px;
+       width: 400px;
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       background-color: bisque;
+       margin-top: 3%;
+       padding: 100px 100px;
+       display: block;
+       margin: auto;
+   }
+   #formDetails form input{
+       display: block;
+       /* margin: auto; */
+       margin-right: 10px;
+       margin-bottom: 1%;
+       padding: 10px 10px ;
+   }
+   
+   

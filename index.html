@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>students data</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ 
+    <nav id="showStudent">
+        <div id="showData"></div>
+    </nav>
+    <div id="formDetails">
+            <form id="studentsData" onsubmit="storeData(event)">
+           Name:     
+          <input type="text" id="name" placeholder="Name"/>
+          Course: 
+          <input type="text" id="course" placeholder="Course"/>
+          Unit:
+          <input type="number" id="unit" placeholder="Unit"/>
+          Image:
+          <input type="url" id="image" placeholder="Image"/>
+          Batch: 
+          <input type="text" id="batch" placeholder="Ft-Web Batch No."/>
+          Submit:
+          <input type="submit"/>
+           </form>
+    </div>
+
+</body>
+</html>
+<script src="./script.js"></script>
